@@ -1,0 +1,25 @@
+.editbutton{
+    float:right;
+}
+.addnewbutton{
+    float: right;
+}
+
+.search-container-Box{
+    width: 1025px;
+
+    margin-top: 0px;
+    margin-bottom: 40px ;
+    padding:25px;
+    
+    margin:10px 0px;
+    white-space: nowrap;
+    height: 25px;
+    font-size: 15px;
+}
+
+.tools-register-heading{
+  font-size: large;
+  margin-top: -20px;
+  margin-left: -13px;
+}

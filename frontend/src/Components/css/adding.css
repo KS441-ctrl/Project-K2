@@ -1,0 +1,40 @@
+
+.popup-container{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background:rgba(0,0,0,0.5);
+    top:75px;
+   
+   
+}
+
+
+
+.popup {
+    /* position: ;
+    right:0; */
+    margin-left: auto;
+    width: 100%;
+    height: 100vh;
+    max-width: 400px;
+    background-color:#D58886;
+    overflow: scroll;
+    padding:10px;
+    padding-bottom: 100px;
+}  
+.popup label {
+    display: flex;
+    font-size: 13px;
+    white-space: nowrap;
+}
+.popup input{
+    font-size:13px;
+    height:30px;
+    width:200px;
+    margin-left:auto;
+}
+
+.editComponent{
+    margin-left: -30px;
+}

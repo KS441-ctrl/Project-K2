@@ -1,0 +1,98 @@
+/* Navbar container */
+.navbar-container {
+    background-color: #fff;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1;
+  }
+  
+  /* Logo container */
+  .logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 40px;
+  }
+  
+  /* Logo text */
+  .logo-text {
+    font-size: 24px;
+    font-weight: bold;
+    color: #4d4d4d;
+    /* padding-left: 20px; */
+  
+  }
+  
+  /* Logo image */
+  .logo-image {
+    height: 40px;
+    margin-left: 20px;
+  }
+  
+  /* Navigation links */
+  .nav-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0 40px;
+   
+  }
+  
+  /* Navigation link items */
+  .nav-link-item {
+    margin: 0 10px;
+    text-transform: uppercase;
+  }
+  
+  /* Active navigation link */
+  .active-link {
+    color: #22b8cf;
+  }
+  
+  /* Dropdown menu */
+  .dropdown-menu {
+    background-color: #fff;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 60px;
+    left: 0;
+    z-index: 1;
+    display: none;
+  }
+  
+  /* Show dropdown menu on hover */
+   /*.dropdown-menu {
+    display: block;
+  }
+  
+  /* Dropdown menu items */
+  .dropdown-item {
+    padding: 10px 20px;
+    color: #4d4d4d;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+  }
+  
+  /* Sign out link */
+  .sign-out-link {
+    display: flex;
+    align-items: center;
+    color: #4d4d4d;
+    text-transform: uppercase;
+    margin-left: 20px;
+  }
+  
+  /* Sign out icon */
+  .sign-out-icon {
+    height: 20px;
+    margin-left: 10px;
+  }
+  
+
+  .horizontal-list{
+    padding-top: 2px;
+  }

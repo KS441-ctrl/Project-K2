@@ -1,0 +1,125 @@
+.section-step{
+    display: flex;
+    margin: 10px;
+    width: 100%;
+    /* max-width: 900px; */
+    margin: auto;
+    
+    background-color: #ccc;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 550;
+}
+.section-step > div{
+    flex: 1;
+    padding:15px;
+}
+.section-step div.active{
+    background-color: #7591D8;
+}
+
+
+.section_one,
+.section_two{
+    width: 100%;
+    margin-top: 10px;
+    padding: 63px;
+    background-color: #ccc;
+}
+/* steps 3 css code */
+.section_three{
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px 20px;
+   
+    background-color: #ccc;
+}
+.section_one form,
+.section_two form{
+    display: flex;
+    width: 100%;
+    gap: 100px;
+    margin: auto;
+    position: relative;
+    min-height: 450px;
+}
+.section_one form .left,
+.section_one form .right,
+.section_two form .left,
+.section_two form .right{
+       flex: 1;
+}
+.section_one form .left1,
+.section_one form .right1,
+.section_two form .left1,
+.section_two form .right1{
+       flex: 1;
+}
+
+.form-element{
+    display: flex;
+    align-items: center;
+}
+.form-element label{
+   min-width: 230px;
+}
+.form-element input,
+.form-element select{
+    height: 40px;
+    width: 100%;
+}
+
+.section_one form .btn-container,
+.section_two .btn-container{
+    position: absolute;
+    width: 100%;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+.section_one form .btn-container .btn-back,
+.section_two .btn-container .btn-back{
+    background-color:#fff;
+    font-weight: 550;
+    color:#000;
+    padding-left: 20px;
+    padding-right: 20px;
+    border:2px solid #ccc;
+    
+}
+.section_one form .btn-container .btn,
+.section_two .btn-container .btn{
+    background-color:#7591D8;
+    font-weight: 550;
+}
+
+
+/* .section_one form .btn,
+.section_two .btn{
+    position: absolute;
+    bottom: 0;
+    right:0;
+   
+}
+
+.section_one form .btn-back,
+.section_two .btn-back{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color:#7591D8;
+    font-weight: 550;
+} */
+
+
+.section_two .forms{
+    display: flex;
+    width: 100%;
+    gap: 100px;
+    max-width: 2000px;
+    margin: auto;
+    position: relative;
+    width: 550px;
+}
+

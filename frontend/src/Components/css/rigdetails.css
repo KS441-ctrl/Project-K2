@@ -1,0 +1,151 @@
+.rig-details-heading{
+    text-align: left;
+    font-size: 20px;
+   padding-left: 15px;
+   padding-top: 2px;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 8px;
+  }
+  
+  th {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  button {
+    margin: 8px;
+    padding: 8px;
+    /* background-color: #4CAF50; */
+    color: white;
+    border: none;
+    border-radius: 4px;
+  }
+  
+  /* button:hover {
+    background-color: #3e8e41;
+  } */
+ /* search box */
+ .search-container-Box {
+    display: flex;
+    margin:10px 0px;
+    white-space: nowrap;
+    height: 40px;
+    font-size: 20px;
+}
+
+.search-container-Box input {
+   margin-left: 250px;
+   height: 40px;;
+   max-width: 900px;;
+   margin-top: -25px;
+}
+
+.listbutton{
+  width: 70px;
+ 
+}
+  
+.mapbutton{
+  width: 70px;
+
+
+}
+
+.handbookbutton{
+  width: 100px;
+}
+
+.btn-Container{
+  width: 100%;
+  display: flex; 
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  margin:10px 0px;
+ 
+}
+.listmaphandbook_btn{
+  background-color: #d9d9d9;
+  padding-bottom: 0px;
+  display: flex;
+  /* padding: 0px 0px; */
+  height: fit-content;
+}
+
+.listmaphandbook_btn button{
+  background-color: transparent;
+  color:#000;
+  font-weight: 500;
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  height: 34px;
+  padding-top: 7px;
+}
+
+.listmaphandbook_btn button.active{
+  background-color: #e36662;
+}
+
+
+
+
+
+
+
+
+.popup-container{
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  background:rgba(0,0,0,0.5);
+  top:75px;
+ 
+ 
+}
+
+.EditRadioBtnEnabbled{
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  justify-content: center;
+
+}
+
+.EditRadioBtnEnabbled input{
+    width:20px;
+
+}
+
+.Searchbar{
+  width: 725px;
+
+margin-top: 0px;
+margin-bottom: 40px ;
+padding:0px;
+
+margin:10px 0px;
+white-space: nowrap;
+height: 25px;
+font-size: 15px;
+ 
+}
+
+.btn-group{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  float: right;
+}
+/* .rig{
+  background-color: gray;
+} */
